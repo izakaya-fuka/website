@@ -1,0 +1,32 @@
+{
+  "name": "shinkan-web-20",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/izakaya-fuka/website.git",
+  "license": "MIT",
+  "author": "Sosuke Suzuki <aosukeke@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,json,yaml,html}\"",
+    "lint": "eslint src --ext .js"
+  },
+  "dependencies": {
+    "gatsby": "2.18.5",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-styled-components": "^3.1.18",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "husky": "^4.2.0",
+    "lint-staged": "^10.0.1",
+    "prettier": "^1.19.1"
+  }
+}
